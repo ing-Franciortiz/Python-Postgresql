@@ -2,7 +2,7 @@ import psycopg2
 
 
    
-connection = psycopg2.connect(host='localhost',user='postgres',password='Franci2025',port=5432,database='test_db')
+connection = psycopg2.connect(host='localhost',user='DB_USER',password='DB_PASSW',port=5432,database='test_db')
 
 
 try:
