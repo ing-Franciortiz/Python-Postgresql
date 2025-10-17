@@ -5,8 +5,8 @@ print("🔄 Iniciando conexión...")
 try:
     connection = psycopg2.connect(
         host='localhost',
-        user='postgres',
-        password='Franci2025',
+        user='DB_USER',
+        password='DB_PASSW',
         port=5432,
         database='test_db'
     )
